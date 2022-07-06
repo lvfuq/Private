@@ -3,7 +3,7 @@ name: autocheck
 on:
   workflow_dispatch: # 手动触发
   schedule: 
-    - cron: '1 17  * * *' # UTC->北京时间
+    - cron: '34 20  * * *' # UTC->北京时间
 
 jobs: 
   check: 
