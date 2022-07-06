@@ -1,6 +1,7 @@
 name: autocheck
 
 on:
+  push:
   schedule: 
     - cron: '35 13,21 * * *' # UTC->北京时间
 
