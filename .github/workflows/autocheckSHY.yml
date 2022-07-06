@@ -3,7 +3,7 @@ name: autocheck
 on:
   push: # 手动触发
   schedule: 
-    - cron: '42 20  * * *' # UTC->北京时间
+    - cron: '43 20  * * *' # UTC->北京时间
 
 jobs: 
   check: 
