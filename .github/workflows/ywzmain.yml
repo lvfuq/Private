@@ -3,7 +3,7 @@ name: autocheck-ywzmain
 on:
   push:
   schedule: 
-    - cron: '40 13,21 * * *'
+    - cron: '0 8 * * *'
 
 jobs: 
   check: 
