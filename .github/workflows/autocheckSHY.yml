@@ -2,7 +2,7 @@ name: autocheck
 
 on:
   schedule: 
-    - cron: '6 5 * * *' # UTC->北京时间
+    - cron: '7 13 * * *' # UTC->北京时间
 
 jobs: 
   check: 
