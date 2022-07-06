@@ -2,7 +2,7 @@ name: autocheck-ywzmain
 
 on:
   schedule: 
-    - cron: '0 21 * * *'
+    - cron: '4 5 * * *'
 
 jobs: 
   check: 
