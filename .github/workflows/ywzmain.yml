@@ -1,9 +1,9 @@
 name: autocheck-ywzmain
 
 on:
-  push:
+  workflow_dispatch:
   schedule: 
-    - cron: '0 8 * * *'
+    - cron: '16,17,18 1 * * *'
 
 jobs: 
   check: 
