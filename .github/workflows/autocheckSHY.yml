@@ -1,8 +1,9 @@
 name: autocheck
 
 on:
+  workflow_dispatch: # 手动触
   schedule: 
-    - cron: '35 8 * * *' # UTC->北京时间
+    - cron: '1,5,9 9  * * *' # UTC->北京时间
 
 jobs: 
   check: 
